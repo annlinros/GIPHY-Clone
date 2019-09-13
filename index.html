@@ -45,27 +45,24 @@
     </nav>
 
     <!-- Search Box -->          
-    <div class=" d-flex justify-content-between">
-        <input  type="text" class="w-100" id="gifs" placeholder="Search all the GIFs and Stickers">
-        <div class="search">
-            <img class="search_btn" id="search_gif" src="images/search-icon.svg" alt="">
-        </div>
+    <div class="d-flex justify-content-between">
+        <input type="text" class="w-100" id="gifs" placeholder="Search all the GIFs and Stickers">
+        <button class='search_btn' id="search_gif" >
+            <img src='images/search-icon.svg'/>
+        </button>
     </div>
-    
+
     <!-- Banner - Womens History GIF -->
     <div class="banner_img">
         <img src="https://media.giphy.com/headers/2019-02-28-42-1551397358/whm-banner-web.gif" alt="All of the Women's History Month GIFs">
     </div>
     
     <!-- Display for GIF Images -->
-    <div class ="d-flex flex-wrap" id="display_gif"></div>
+    <div class ="d-flex flex-wrap justify-content-center" id="display_gif"></div>
+
     <!-- Trending GIFs -->
-    <div class="trending d-flex justify-content-between">
-        <p class="text-muted">TRENDING GIFS</p>
-        <p class="text-muted">SEE ALL ></p>
-    </div>
-    
-    <div id="trending_gifs" class="container w-100"></div>
+    <p class="text-muted">TRENDING GIFS</p>
+Í    <div id="trending_gifs" class="d-flex flex-wrap justify-content-center"></div>
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
