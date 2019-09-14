@@ -1,7 +1,7 @@
+# GIPHY-Clone (HTML, CSS, Bootstrap and Vanilla JS)
+
 Watch it live (hosted on Netlify) : https://gifsie.netlify.com
 
-
-# GIPHY-Clone (HTML, CSS, Bootstrap and Vanilla JS)
 
 A mini clone of GIPHY using GIPHY API which performs following things: 
 
